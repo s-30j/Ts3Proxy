@@ -23,7 +23,7 @@ node server.js
 No need to download or install any dependencies. You can directly run the proxy without executing `npm install`.
 
 ## License
-[MIT License](./LICENSE)
+[GPL-3.0 license](./LICENSE)
 
 ---
 Feel free to contribute or report issues at the [repository](https://github.com/s-30j/Ts3Proxy)!
