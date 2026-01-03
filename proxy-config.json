@@ -1,0 +1,43 @@
+{
+  "routes": [
+
+    {
+      "name": "tssv-route",
+      "protocol": "tcp",
+      "listen": {
+        "host": "0.0.0.0",
+        "port": 9987
+      },
+      "forward": {
+        "host": "46.38.138.68",
+        "port": 6069
+      },
+      "enabled": true
+    },
+    {
+      "name": "tssv-route",
+      "protocol": "udp",
+      "listen": {
+        "host": "0.0.0.0",
+        "port": 9987
+      },
+      "forward": {
+        "host": "46.38.138.68",
+        "port": 6069
+      },
+      "enabled": true
+    }
+
+
+
+
+    
+  ],
+  "logging": {
+    "enabled": true,
+    "logToFile": false,
+    "logPath": "logs",
+    "logLevel": "info"
+  },
+  "udpTimeout": 600000
+}

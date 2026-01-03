@@ -1,0 +1,12 @@
+{
+    "name": "Ts3Proxy",
+    "version": "1.0.0",
+    "description": "TCP/UDP proxy for Teamspeak 3 servers",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "30j",
+    "license": "-",
+    "dependencies": {}
+  }
